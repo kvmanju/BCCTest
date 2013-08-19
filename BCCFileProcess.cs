@@ -313,7 +313,7 @@ namespace BCCTest
                 streamMJBProcess.WriteLine("PREPAREDFOR=NONE");
                 streamMJBProcess.WriteLine("");
 
-                //if (iInputRecords > 99)
+                //if (iInputRecords > 99) --NCOA process bypassed
                 //{
                 //    streamMJBProcess.WriteLine("[DATASERVICES-5]");
                 //    streamMJBProcess.WriteLine("LIST=\"" + strBCCDatabase + "\"");
